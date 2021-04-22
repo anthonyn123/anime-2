@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Protagonista de shounen</h1>
+
+
+    <table class="table table-secondary">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Raça</th>
+                <th scope="col">Origem</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor = "let shounen of shounen">
+                <th scope="row">{{shounen.id}}</th>
+                  <td>{{shounen.nome}}</td>
+                  <td>{{shounen.raca}}</td>
+                  <td>{{shounen.lugar}}</td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+</div>

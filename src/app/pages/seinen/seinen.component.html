@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Protagonista de seinen</h1>
+
+
+    <table class="table table-secondary">
+            <thead>
+              <tr>
+                <th scope="col">id</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Raça</th>
+                <th scope="col">Origem</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor = "let seinen of seinen">
+                <th scope="row">{{seinen.id}}</th>
+                  <td>{{seinen.nome}}</td>
+                  <td>{{seinen.raca}}</td>
+                  <td>{{seinen.lugar}}</td>
+                </tr>
+              
+            </tbody>
+          </table>
+
+</div>
